@@ -8,7 +8,6 @@ const crypto = require("crypto");
 require("dotenv").config();
 const app = express();
 
-console.log("Secret Key from Environment: ", process.env.SECRET_KEY);
 // Session set-up
 app.use(
   session({
